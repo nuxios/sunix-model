@@ -6,9 +6,15 @@
     "test": "bun run app/main.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "dotenv": "^16.4.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.7.0",
+    "i": "^0.3.7",
+    "npm": "^10.8.3"
   }
 }
