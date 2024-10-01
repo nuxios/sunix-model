@@ -1,0 +1,14 @@
+{
+  "name": "sunix-model",
+  "module": "app/main.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun run app/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
